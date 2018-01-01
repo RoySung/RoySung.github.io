@@ -3,39 +3,45 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Archivo: 2016 | Hexo</title>
+    <title>Archive: 2016 | RoySung&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="RoySung&#39;s Blog">
 <meta property="og:url" content="http://yoursite.com/archives/2016/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description">
+<meta property="og:site_name" content="RoySung&#39;s Blog">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
+<meta name="twitter:title" content="RoySung&#39;s Blog">
     
 
     
-
+        <link rel="alternate" href="/" title="RoySung&#39;s Blog" type="application/atom+xml" />
     
 
-    <link rel="stylesheet" href="/blog.io/vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/blog.io/vendor/open-sans/styles.css">
-    <link rel="stylesheet" href="/blog.io/vendor/source-code-pro/styles.css">
+    
+        <link rel="icon" href="/blog.io/css/images/astronaut.png" />
+    
+
+    <link rel="stylesheet" href="/blog.io/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/blog.io/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/blog.io/libs/source-code-pro/styles.css">
 
     <link rel="stylesheet" href="/blog.io/css/style.css">
 
-    <script src="/blog.io/vendor/jquery/2.1.3/jquery.min.js"></script>
+    <script src="/blog.io/libs/jquery/2.1.3/jquery.min.js"></script>
     
     
-        <link rel="stylesheet" href="/blog.io/vendor/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="/blog.io/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/blog.io/libs/justified-gallery/justifiedGallery.min.css">
     
     
     
     
 
+
 </head>
+
 <body>
     <div id="container">
         <header id="header">
@@ -43,7 +49,7 @@
         <div class="outer">
             <a href="/blog.io/" id="logo">
                 <i class="logo"></i>
-                <span class="site-title">Hexo</span>
+                <span class="site-title">RoySung&#39;s Blog</span>
             </a>
             <nav id="main-nav">
                 
@@ -63,7 +69,7 @@
                 <nav id="sub-nav">
                     <div class="profile" id="profile-nav">
                         <a id="profile-anchor" href="javascript:;">
-                            <img class="avatar" src="/blog.io/css/images/avatar.png" />
+                            <img class="avatar" src="/blog.io/css/images/profile.png" />
                             <i class="fa fa-caret-down"></i>
                         </a>
                     </div>
@@ -72,7 +78,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -91,10 +97,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Entradas',
+            POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Categorias',
-            TAGS: 'Etiquetas',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/blog.io/',
@@ -125,7 +131,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
     </div>
 
                 </td>
@@ -141,20 +147,20 @@
 <aside id="profile">
     <div class="inner profile-inner">
         <div class="base-info profile-block">
-            <img id="avatar" src="/blog.io/css/images/avatar.png" />
-            <h2 id="name">PPOffice</h2>
+            <img id="avatar" src="/blog.io/css/images/profile.png" />
+            <h2 id="name">RoySung</h2>
             <h3 id="title">Web Developer &amp; Designer</h3>
-            <span id="location"><i class="fa fa-map-marker"></i>Harbin, China</span>
-            <a id="follow" target="_blank" href="https://github.com/ppoffice/">SEGUIR</a>
+            <span id="location"><i class="fa fa-map-marker"></i>Taiwan</span>
+            <a id="follow" target="_blank" href="https://github.com/RoySung/">FOLLOW</a>
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
                 2
-                <span>Entradas</span>
+                <span>posts</span>
             </div>
             <div class="article-info-block">
                 0
-                <span>Etiqueta</span>
+                <span>tag</span>
             </div>
         </div>
         
@@ -162,15 +168,36 @@
             <table>
                 <tr>
                     
-                    <td><a href="http://github.com/ppoffice/hexo-theme-icarus" target="_blank" title="github"><i class="fa fa-github"></i></a></td>
                     
-                    <td><a href="/blog.io/" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></td>
+                    <td>
+                        <a href="https://github.com/RoySung/" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
                     
-                    <td><a href="/blog.io/" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></td>
+                    <td>
+                        <a href="/blog.io/" target="_blank" title="twitter" class=tooltip>
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </td>
                     
-                    <td><a href="/blog.io/" target="_blank" title="dribbble"><i class="fa fa-dribbble"></i></a></td>
+                    <td>
+                        <a href="/blog.io/" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
                     
-                    <td><a href="/blog.io/" target="_blank" title="rss"><i class="fa fa-rss"></i></a></td>
+                    <td>
+                        <a href="/blog.io/" target="_blank" title="dribbble" class=tooltip>
+                            <i class="fa fa-dribbble"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="/blog.io/" target="_blank" title="rss" class=tooltip>
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </td>
                     
                 </tr>
             </table>
@@ -242,11 +269,12 @@
 </div>
 </section>
             
-                <aside id="sidebar">
+                
+<aside id="sidebar">
    
         
     <div class="widget-wrap">
-        <h3 class="widget-title">Recientes</h3>
+        <h3 class="widget-title">recent</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
@@ -297,7 +325,7 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">Archivos</h3>
+        <h3 class="widget-title">archives</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog.io/archives/2016/05/">May 2016</a><span class="archive-list-count">2</span></li></ul>
         </div>
@@ -310,7 +338,7 @@
     
         
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">Links</h3>
+        <h3 class="widget-title">links</h3>
         <div class="widget">
             <ul>
                 
@@ -326,36 +354,36 @@
     
     <div id="toTop" class="fa fa-angle-up"></div>
 </aside>
+
             
         </div>
         <footer id="footer">
     <div class="outer">
         <div id="footer-info" class="inner">
-            &copy; 2016 John Doe<br>
+            &copy; 2018 RoySung<br>
             Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
         </div>
     </div>
 </footer>
         
-    
-    <script>
-    var disqus_shortname = 'hexo-theme-icarus';
-    
-    
-    (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-    </script>
-
 
 
     
-        <script src="/blog.io/vendor/fancybox/jquery.fancybox.pack.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/blog.io/libs/lightgallery/js/lg-video.min.js"></script>
     
+    
+        <script src="/blog.io/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
 
 
 <!-- Custom Scripts -->
