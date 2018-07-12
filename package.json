@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.4.4"
+    "version": "3.7.1"
+  },
+  "scripts": {
+    "serve": "hexo serve",
+    "deploy": "hexo deploy"
   },
   "dependencies": {
-    "hexo": "^3.4.4",
+    "hexo": "^3.7.1",
     "hexo-deployer-git": "^0.1.0",
     "hexo-deployer-netlify": "0.0.5",
     "hexo-generator-archive": "^0.1.4",
