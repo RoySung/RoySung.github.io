@@ -73,7 +73,4 @@ disqus: roysung-blog
 deploy:
 - type: git
   repo: git@github.com:RoySung/RoySung.github.io.git
-- type: netlify
-  token: 044caa507fb3bd192ce6a730b7a2e19938cbde477d4f6859018618937f71a44f
-  site_id: 195595f2-1a49-44dd-abce-d7389fa0696d
 
